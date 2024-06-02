@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+    margin: 0;
+    background-image: url("imagenes/Fondo.jpg");
+    background-size: cover;
+  background-repeat: repeat;
+}
+/*Estilos para el menú de navegacion*/
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    font-family: sans-serif;
+    background-color: rgb(0, 0, 0);
+    height: 100px;
+  }
+  .figura{
+    width: 120px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 2%;
+  }
+  .titulo {
+    color: rgb(153, 0, 255);
+    font-size: 70px;
+    font-weight: 1000;
+    font-family: sans-serif;
+    padding-bottom: 2%;
+  }
+  ul li {
+    display: inline-block;
+    padding: 0px 20px;
+  }
+  a {
+    color: rgb(244, 234, 234);
+    text-decoration: none;
+    font-size: 25px;
+  }
+  /*Acerca de*/
+  .menu2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight: bold;
+    font-family: sans-serif;
+    background-color: rgb(0, 0, 1);
+    height: 100px;
+  }
+  .titulo2 {
+    color: rgb(16, 138, 245);
+    font-size: 70px;
+    font-weight: 1000;
+    font-family: sans-serif;
+  }
+.Conteiner{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:end;
+}
+
+.Nav_1{
+    margin-right: 20px;
+    background-color: rgba(0, 0, 0, 100%);
+    height: 300px;
+    width: 255px;
+    padding: 20px;
+    line-height: 25px;
+    border-radius: 5px;
+}
+
+.MUSICA{
+    background-color: rgba(0, 0, 0, 100%);
+    width: 1200px;
+    height: 2100px;
+    padding:40px;
+    border-radius: 5px;
+}
+.section_1{
+    display: flex;
+}
+.musica{
+    padding: 20px;
+}
+.article_1{
+    background-color: rgba(172, 166, 173, 0.9);
+    font-size: 15px;
+    width: 710px;
+    height: 2060px;
+    margin-right: 20px;
+    border-radius: 5px;
+    padding: 20px;
+}
+.as_1{
+    background-color: rgba(172, 166, 173, 0.9);
+    width: 300px;
+    height: 240px;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-family: sans-serif;
+    border-radius: 5px;
+}
+.as_2{
+    background-color: rgba(172, 166, 173, 0.9);
+    width: 340px;
+    height: 290px;
+    border-radius: 5px;
+}
+.img_Asd_2{
+    height: 200px;
+    margin: 20px;
+}
+.MUSICA_2{
+    background-color: rgba(0, 0, 0, 70%);
+    width: 1180px;
+    height: 400px;
+    border-radius: 5px;
+}
+
+.img_guitarrista{
+    height: 330px;
+    padding-right: 20px;
+}
+
+.section_2{
+    padding: 20px;
+    justify-content: end;
+    display: flex;
+}
+.Conteiner_2{
+    padding: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content:end;
+}
+.as_3{
+    background-color: rgba(172, 166, 173, 0.9);
+    width: 700px;
+    height: 290px;
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    font-size: 70px;
+    font-weight:700 ;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    height: 200px;
+    padding: 40px;
+}
+.imagen{
+    width: 400px;
+}
+fieldset{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px;
+    border-radius: 4px;
+    border: 2px solid;
+}
+.button{
+    height: 30px;
+    width: 65px;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+span{
+    color: aliceblue;
+    font-size: 20px;
+}
+.titulo_span_1{
+    font-size: 30px;
+    font-weight: 700;
+}
+.Text_footer_1{
+    font-size: 14px;
+    font-family:sans-serif ;
+}
+html{
+    scroll-behavior: smooth;
+}
+/*Estilo de la pagina de acerca de mi*/
+.sobre_mi{
+    background-color: aliceblue;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 2px;
+}
